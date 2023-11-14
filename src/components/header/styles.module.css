@@ -1,0 +1,29 @@
+.header {
+    max-width: 1480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    margin: 0 0 0 16px;
+    padding: 0 0 0 12px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    border-left: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.item {
+    color: rgba(153, 153, 153, 1);
+    margin-right: 30px;
+}
+
+.item:last-child {
+    margin: 0;
+}

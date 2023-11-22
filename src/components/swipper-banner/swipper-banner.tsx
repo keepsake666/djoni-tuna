@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-const SwiperComponent = () => {
+const SwiperBanner = () => {
   return (
     <div className={styles.container}>
       <Swiper
@@ -62,4 +62,4 @@ const SwiperComponent = () => {
   );
 };
 
-export default SwiperComponent;
+export default SwiperBanner;

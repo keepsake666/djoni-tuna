@@ -1,9 +1,16 @@
 .header {
-    max-width: 1480px;
+    position: relative;
     width: 100%;
-    padding: 0 220px;
     margin: 24px auto 8px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.15)
+}
+.main {
+    margin: 0 auto;
+    max-width: 1518px;
+    position: relative;
+    width: 100%;
+    padding: 0 19px;
+    box-sizing: border-box;
 }
 
 .containerInfo {
@@ -115,7 +122,6 @@
 
 .button:hover svg path {
     stroke: rgba(53, 173, 225, 1);
-;
 }
 
 .textBasket {
@@ -128,5 +134,17 @@
 }
 
 .containerTextBasket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px 12px;
+    cursor: pointer;
+}
+
+.containerTextBasket:hover {
+    color: rgba(255, 114, 85, 1);
+}
+
+.containerTextBasket:hover svg path  {
+    stroke: rgba(255, 114, 85, 1);
 }

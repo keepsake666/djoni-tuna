@@ -1,10 +1,10 @@
 import page from "./page.module.css";
+import SwiperComponent from "@/components/swipper/swipper";
+
 export default function Home() {
   return (
-    <main className={page.main}>
-      <div className={page.container}>
-        <div className={page.page}>Main page</div>
-      </div>
-    </main>
+    <div className={page.main}>
+      <SwiperComponent />
+    </div>
   );
 }

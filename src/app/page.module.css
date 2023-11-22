@@ -1,5 +1,6 @@
 .main {
-    max-width: 1520px;
+    position: relative;
+    max-width: 1518px;
     width: 100%;
-    border: 2px red solid;
+    margin: 0 auto;
 }

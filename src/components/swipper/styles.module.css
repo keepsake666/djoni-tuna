@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slide {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+    height: 400px;
+}
+
+.swiper {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.slideSwiper {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}

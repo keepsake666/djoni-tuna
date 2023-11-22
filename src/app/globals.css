@@ -2,9 +2,10 @@
   --transition-hover: all 100ms ease-out;
 }
 body {
-  max-width: 1920px;
   width: 100%;
   margin: 0;
+  padding: 0 50px;
+  box-sizing: border-box;
 }
 
 .m-0 {

@@ -1,16 +1,9 @@
 "use client";
 import styles from "./styles.module.css";
 import { FC } from "react";
-interface ProductProps {
-  image: string;
-  name: string;
-  description: string;
-  price: number;
-  weight: number;
-  onAddToCart: () => void;
-}
+import { Product } from "@/types/types";
 
-const Product: FC<ProductProps> = ({
+const Product: FC<Product> = ({
   image,
   name,
   description,
@@ -19,7 +12,7 @@ const Product: FC<ProductProps> = ({
   weight,
 }) => {
   return (
-    <div className={styles.product}>
+    <li className={styles.product}>
       <img className={styles.img} src={image} alt={name} />
       <h2 className={styles.name}>{name}</h2>
       <p className={styles.description}>{description}</p>
@@ -31,7 +24,7 @@ const Product: FC<ProductProps> = ({
           Выбрать
         </button>
       </div>
-    </div>
+    </li>
   );
 };
 

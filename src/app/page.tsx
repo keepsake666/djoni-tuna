@@ -13,9 +13,12 @@ export default function Home() {
         image={
           "https://img.freepik.com/free-photo/freshly-italian-pizza-with-mozzarella-cheese-slice-generative-ai_188544-12347.jpg"
         }
-        name={"asd"}
-        description={"asdkjalskdjlkj alskdjalksjd"}
+        name={"Банзай"}
+        description={
+          "Нори, японский рис, творожный сыр Cremette, креветка темпура креветка темпура креветка темпура asdasdasdasd"
+        }
         price={123}
+        weight={100}
         onAddToCart={() => {
           console.log("hello");
         }}

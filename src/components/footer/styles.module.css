@@ -1,3 +1,85 @@
 .footer {
+    width: 100%;
+    margin: 100px auto 40px;
+    padding: 24px 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    border-top: 2px solid rgba(0, 0, 0, 0.15);
+}
 
+.main {
+    width: 100%;
+    max-width: 1480px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigationTitle {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    max-width: 364px;
+    gap: 30px
+}
+
+.item {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+}
+ .contacts {
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+     justify-content: flex-start;
+ }
+
+.contactsText {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color:  rgba(153, 153, 153, 1);
+    text-align: center;
+    margin: 0 0 12px;
+    padding: 0;
+}
+
+.contactsNumber {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.containerNumber {
+    margin-bottom: 28px;
+}
+
+.appText {
+    margin: 20px 0;
+    padding: 0 0 0 13px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color:  rgba(153, 153, 153, 1);
+    width: 289px;
+}
+
+.logo svg {
+    width: 311px;
+    height: 25px;
 }
